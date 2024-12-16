@@ -12,6 +12,7 @@ public class Student
     name = input_name;
   }
 
+  
   public String toString()
   {
     return "ID: " + ID + "\nName: " + name + "\nGrade: " + grade;
