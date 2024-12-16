@@ -5,6 +5,21 @@ public class Dog
   private String name;
   private String color;
 
+  public Dog(String iBreed, String iName, String iColor, double iWeight)
+  {
+    breed = iBreed;
+    name = iname;
+    color = iColor;
+    if iWeight < 0
+    {
+      weight = 0;
+    }
+    else 
+    {
+      weight = iWeight;
+    }
+  }
+
   // Make setters
   public void setBreed(String iBreed)
   {
@@ -49,6 +64,5 @@ public class Dog
   {
     return color;
   }
-
 
 }
