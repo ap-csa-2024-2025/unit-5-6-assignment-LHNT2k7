@@ -51,8 +51,10 @@ public class Point2D
 
   // Overload of dist() method
   // Returns the distance from this point to Point2D other
-  public double dist(Point2D other)
+  public double dist(Point2D P1, Point2D P2)
   {
-    return 0.0;
+    double distX = Math.pow((P1.getx-P2.getx),2);
+    double disty = Math.pow((P1.gety-P2.gety),2);
+    return Math.sqrt(distX + distY);
   }
 }
