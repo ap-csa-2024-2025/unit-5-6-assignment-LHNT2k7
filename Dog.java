@@ -16,4 +16,39 @@ public class Dog
   {
     return breed;
   }
+
+  public void setWeight(String iBWeight)
+  {
+    weight = iWeight;
+  }
+
+  // Make getters
+  public String getWeight()
+  {
+    return weight;
+  }
+
+  public void setname(String iName)
+  {
+    breed = iName;
+  }
+
+  // Make getters
+  public String getName()
+  {
+    return name;
+  }
+
+  public void setColor(String iColor)
+  {
+    color = iColor;
+  }
+
+  // Make getters
+  public String getColor()
+  {
+    return color;
+  }
+
+
 }
