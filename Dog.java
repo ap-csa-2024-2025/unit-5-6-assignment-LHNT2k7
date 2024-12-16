@@ -17,7 +17,7 @@ public class Dog
     return breed;
   }
 
-  public void setWeight(String iBWeight)
+  public void setWeight(double iBWeight)
   {
     weight = iWeight;
   }
