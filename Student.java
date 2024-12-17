@@ -7,10 +7,22 @@ public class Student
   // Constructors
   public Student(int input_id, int input_grade, String input_name)
   {
-    id = input_id;
-    grade = input_grade;
-    name = input_name;
+    this.id = input_id;
+    this.grade = input_grade;
+    this.name = input_name;
   }
+
+  public void setBreed(String iBreed)
+  {
+    breed = iBreed;
+  }
+
+  // Make getters
+  public String getBreed()
+  {
+    return breed;
+  }
+  
 
   
   public String toString()
